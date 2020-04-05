@@ -1,0 +1,12 @@
+#include <iostream>
+#include <string>
+using namespace std;
+	//pemograman menggunakan Do while
+int main () {
+	char huruf = 'Y' ;
+	do {
+		cout << " input huruf N untuk akan berhenti" <<endl;
+		cout << "masukkan huruf ";
+		cin >> huruf;
+	}while ( huruf = 'Y');
+}
