@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+
+int main () {
+	//perulangan ganjil dan genap menggunakan for
+	int angka_awal,angka_akhir;
+	cout << "menampilkan bilangan ganjil dan genap dari 1-10 :" <<endl;
+	cin >> angka_awal;
+	
+	for ( int i = 1 ; i <=10 ; i++){
+		if ( i % 2 == 1 ){
+			cout << i << " adalah genap " <<endl;
+		} else {
+			cout << i << " adalah ganjil " <<endl;
+		}
+	}
+}
