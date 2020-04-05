@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+
+int main () {
+	int i = 100;
+		//menampilkan perulangan bilagan ganil dan gepa menggunakan while 100-1000
+		cout << " masukkan angka dari 100-1000 :" <<endl;
+		cin >> i ;
+	while ( i <=1000 ){
+		if ( i % 2 = 1 ) {
+			cout << i << " adalah ganjil " <<endl ; i++;
+		}else {
+			cout << i << " adalah genap " <<endl ; i++;
+		}
+	}
+}
